@@ -22,5 +22,14 @@ abstract class AbstractKoma {
     PImage img = loadImage(komaImage);
     image(img, SQUARESIZE*this.x+2, this.y*SQUARESIZE+2, SQUARESIZE-4, SQUARESIZE-4);
 
+class KomaStatus {
+  boolean captured;
+  boolean active;
+  boolean selected;
+
+  KomaStatus(boolean active) {
+    this.active = active;
+    this.captured = false;
+    this.selected = false;
   }
 }
