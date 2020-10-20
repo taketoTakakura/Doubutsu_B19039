@@ -1,3 +1,4 @@
+
 abstract class AbstractKoma {
   String name;
   int x;
@@ -24,3 +25,4 @@ abstract class AbstractKoma {
 
   }
 }
+
